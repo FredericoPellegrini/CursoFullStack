@@ -1,0 +1,62 @@
+/*
+
+Cores:
+
+Podem ser selecionados de diferentes formas:
+
+1. Nome em inglês (existem 140 nomes):
+
+color: red;
+
+2. Via RGB(red, green e blue):
+
+Exemplo de vermelho
+R = 100%, G = 0% e B = 0%
+255 equivale a 255. 
+
+
+color: rgb(255,0,0)
+
+
+3. Hexadecimal:
+
+color: #FF0000
+
+FF = proporção de vermelho
+00 = proporção de verde
+00 = proporção de azul 
+
+
+Pode ser feito tbm = #F00
+
+Resumida, como há repetição dos 3 elementos, pode ser abreviada assim. 
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-
+
+By the way:
+
+color: cor da fonte
+background-color: color do fundo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*

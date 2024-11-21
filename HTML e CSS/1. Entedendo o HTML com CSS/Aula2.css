@@ -1,0 +1,58 @@
+/* Como selecionar objetos no CSS 
+
+Via ID = coloca-se um id dentro de uma tag no css e depois seleciona-se ele através de #. Só permite selecionar um único elemento Exemplo:
+
+<h1 id="titulo">Teste</h1>
+
+#titulo{.
+    color: black; 
+}
+
+
+Via classe = Adciona-se class a tag e ela funciona como o id, o diferencial é que vários elementos podem ter a mesma classe. Selecionados por ponto final. Exemplo: 
+
+<h1 class="titulo">Teste</h1>
+<h2 class="titulo">Teste 2</h2>
+
+.titulo{
+    color: black;
+}
+
+Também pode ser selecionado pelo nome da classe. Todos com a mesma tag serão afetados.
+
+<h1 class="titulo">Teste</h1>
+
+h1{
+    color: black;
+}
+
+
+------------------------------------------------------------------------
+
+
+É possível unir seleções por vírgula:
+
+    #titulo, .titulo, h1{
+        color: black;
+    }
+
+
+-------------------------------------------------------------------------
+
+É possível selecionar elmentos dentro de outros elementos::after
+
+<ol>
+    <li></li>
+</ol>
+
+
+ol li{
+
+    color:pink;
+
+}
+
+Só serão selecionados os elementos li que estejam dentro de ol. 
+
+*/
+
